@@ -10,7 +10,18 @@ body {
 header {
     padding: 10px 100px;
     box-sizing: border-box;
+    background: #16a085;
 
+}
+header p {
+    display: block;
+    position: absolute;
+    top: -38px;
+    left: 200px;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #f39c12;
 }
 section {
     width: 100%;
@@ -19,6 +30,7 @@ section {
 section.sec1 {
     background: url('../IMAGES/img1.jpg');
     background-size: cover;
+    background-attachment: fixed;
       
 }
 section.sec2 {
@@ -68,7 +80,9 @@ nav ul li a {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 50px;
+    transition: .5s;
 }
+
 nav ul li a:hover, nav ul li a.active {
     background: #f00;
 }
