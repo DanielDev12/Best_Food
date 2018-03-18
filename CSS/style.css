@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #000;
+    background: #fff;
 }
 header {
     padding: 10px 100px;
@@ -30,13 +30,11 @@ section.sec2 h2 {
     font-size: 3em;
     margin: 0;
     padding: 0 0 20px;
-    color: #fff;
 }
 section.sec2 p {
     font-size: 1.2em;
     margin: 0;
     padding: 0;
-    color: #fff;
 }
 section.sec3 {
     background: url('../IMAGES/img3.jpg');
