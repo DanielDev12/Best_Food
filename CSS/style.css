@@ -78,7 +78,23 @@ nav ul li a {
     line-height: 50px;
     transition: .5s;
 }
-
 nav ul li a:hover, nav ul li a.active {
     background: #ff3f34;
+}
+/* back-to-top */
+.back-to-top {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    background: url('../IMAGES/arrow up.png') no-repeat center 12px;
+    float: right;
+    background-color: #16a085;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+.back-to-top:hover {
+    cursor: pointer;
+    background-color: #34ace0;
 }
