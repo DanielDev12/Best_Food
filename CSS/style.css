@@ -2,12 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Jura:700');
 
+/* CORPO */
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background: #fff;
 }
+/* CABECALHO */
 header {
     padding: 10px 100px;
     box-sizing: border-box;
@@ -18,6 +20,7 @@ header img {
    height: 180px;
    margin-left: 400px;
 }
+/* CONTEÚDO */
 section {
     width: 100%;
     height: 100vh;
@@ -47,7 +50,7 @@ section.sec3 {
     background: url('../IMAGES/img1.jpg');
     background-size: cover;
 }
-
+/* MENU */
 nav {
     width: 100%;
     height: 50px;
@@ -91,10 +94,16 @@ nav ul li a:hover, nav ul li a.active {
     float: right;
     background-color: #16a085;
     position: fixed;
-    bottom: 50px;
+    bottom: 200px;
     right: 20px;
 }
 .back-to-top:hover {
     cursor: pointer;
     background-color: #34ace0;
+}
+/* Rodapé */
+footer {
+    width: 100%;
+    height: 230px;
+    background-color: rgba(0,0,0,.8);
 }
